@@ -12,17 +12,19 @@ namespace MVC_Review_Site.Models
         [Key]
         public int ID { get; set; }
         public DateTime Date { get; set; }
-        [Display(Name = "Condition of weather? ex. Sunny, Stormy, etc")]
+        [Display(Name = "City / State")]
+        public string CityState { get; set; }
+        [Display(Name = "Weather Condition")]
         public string WeatherType { get; set; }
-        [Display(Name = "Condition of water? ex. Calm, Choppy, etc")]
+        [Display(Name = "Water Temperment")]
         public string WaterCondition { get; set; }
-        [Display(Name = "Rate how easy to find eligible skipping stones. 1-10")]
+        [Display(Name = "Stone Availibility Rating: 1-10")]
         public int StoneAvailability { get; set; }
-        [Display(Name = "How many skips per throw did you average")]
+        [Display(Name = "Average Skips Per Throw")]
         public int AverageSkip { get; set; }
-        [MaxLength(140), Display(Name = "Any additional comments?")]
+        [MaxLength(140), Display(Name = "Additional Comments")]
         public string Comment { get; set; }
-        [Display(Name = "Rate 1-10 of overall stone skipping experience")]
+        [Display(Name = "Overall Experience Rating: 1-10")]
         public int OverallReview { get; set; }
 
 

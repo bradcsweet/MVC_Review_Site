@@ -1,0 +1,95 @@
+﻿@model MVC_Review_Site.Models.Review
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Review</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Location.BodyOfWater)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Location.BodyOfWater)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CityState)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CityState)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.WeatherType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WeatherType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WaterCondition)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WaterCondition)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StoneAvailability)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StoneAvailability)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AverageSkip)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AverageSkip)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Comment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Comment)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OverallReview)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OverallReview)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
