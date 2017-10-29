@@ -11,6 +11,11 @@
     color: white;
 }
 
+.thumbnail {
+    text-align: center;
+
+}
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -20,6 +25,7 @@
 .jumbotron-fluid {
     background-image: url('Images/stone-skipping-on-calm-water.png');
     background-size: cover;
+    text-align: center;
     height: 500px;
 }
 

@@ -18,13 +18,13 @@ namespace MVC_Review_Site.Models
         public string WeatherType { get; set; }
         [Display(Name = "Water Temperment")]
         public string WaterCondition { get; set; }
-        [Display(Name = "Stone Availibility Rating: 1-10")]
+        [Display(Name = "Stone Availibility Rating: 1-5")]
         public int StoneAvailability { get; set; }
         [Display(Name = "Average Skips Per Throw")]
         public int AverageSkip { get; set; }
         [MaxLength(140), Display(Name = "Additional Comments")]
         public string Comment { get; set; }
-        [Display(Name = "Overall Experience Rating: 1-10")]
+        [Display(Name = "Overall Experience Rating: 1-5")]
         public int OverallReview { get; set; }
 
 
