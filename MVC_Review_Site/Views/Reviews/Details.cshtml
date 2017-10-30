@@ -4,152 +4,88 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Review Details</h2>
 
 <div>
-    <h4>Review</h4>
     <hr />
-    <div class="row">
-        <div class="col-md-4">
-            <h3>@Html.DisplayNameFor(model => model.Location.BodyOfWater)</h3>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h4><i>@Html.DisplayNameFor(model => model.Location.BodyOfWater)</i></h4>
+            </div>
+            <div class="col-md-6">
+                <h4>@Html.DisplayFor(model => model.Location.BodyOfWater)</h4>
+            </div>
         </div>
-        <div class="col-md-8">
-            <h3>@Html.DisplayFor(model => model.Location.BodyOfWater)</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <h4><i>@Html.DisplayNameFor(model => model.Date)</i></h4>
+            </div>
+            <div class="col-md-6">
+                <h4>@Html.DisplayFor(model => model.Date)</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4><i>@Html.DisplayNameFor(model => model.CityState)</i></h4>
+            </div>
+            <div class="col-md-6">
+                <h4>@Html.DisplayFor(model => model.CityState)</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4><i>@Html.DisplayNameFor(model => model.WeatherType)</i></h4>
+            </div>
+            <div class="col-md-6">
+                <h4>@Html.DisplayFor(model => model.WeatherType)</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4><i>@Html.DisplayNameFor(model => model.WaterCondition)</i></h4>
+            </div>
+            <div class="col-md-6">
+                <h4>@Html.DisplayFor(model => model.WaterCondition)</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4><i>@Html.DisplayNameFor(model => model.StoneAvailability)</i></h4>
+            </div>
+            <div class="col-md-6">
+                <h4>@Html.DisplayFor(model => model.StoneAvailability)</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4><i>@Html.DisplayNameFor(model => model.AverageSkip)</i></h4>
+            </div>
+            <div class="col-md-6">
+                <h4>@Html.DisplayFor(model => model.AverageSkip)</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4><i>@Html.DisplayNameFor(model => model.Comment)</i></h4>
+            </div>
+            <div class="col-md-6">
+                <h4>@Html.DisplayFor(model => model.Comment)</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4><i>@Html.DisplayNameFor(model => model.OverallReview)</i></h4>
+            </div>
+            <div class="col-md-6">
+                <h4>@Html.DisplayFor(model => model.OverallReview)</h4>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-4">
-            <h3>@Html.DisplayNameFor(model => model.Date)</h3>
-        </div>
-        <div class="col-md-8">
-            <h3>@Html.DisplayFor(model => model.Date)</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            <h3><i>@Html.DisplayNameFor(model => model.CityState)</i></h3>
-        </div>
-        <div class="col-md-8">
-            <h4>@Html.DisplayFor(model => model.CityState)</h4>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            <h3><i>@Html.DisplayNameFor(model => model.WeatherType)</i></h3>
-        </div>
-        <div class="col-md-8">
-            <h4>@Html.DisplayFor(model => model.WeatherType)</h4>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            <h3><i></i></h3>
-        </div>
-        <div class="col-md-8">
-            <h4></h4>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            <h3><i></i></h3>
-        </div>
-        <div class="col-md-8">
-            <h4></h4>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            <h3><i></i></h3>
-        </div>
-        <div class="col-md-8">
-            <h4></h4>
-        </div>
-    </div>
-
-
-
-
 </div>
-</div>
 
-
-
-@*<dl class="dl-horizontal">
-            <dt>
-                @Html.DisplayNameFor(model => model.Location.BodyOfWater)
-            </dt>
-
-            <dd>
-                @Html.DisplayFor(model => model.Location.BodyOfWater)
-            </dd>
-
-            <dt>
-                @Html.DisplayNameFor(model => model.Date)
-            </dt>
-
-            <dd>
-                @Html.DisplayFor(model => model.Date)
-            </dd>
-
-            <dt>
-                @Html.DisplayNameFor(model => model.CityState)
-            </dt>
-
-            <dd>
-                @Html.DisplayFor(model => model.CityState)
-            </dd>
-
-            <dt>
-                @Html.DisplayNameFor(model => model.WeatherType)
-            </dt>
-
-            <dd>
-                @Html.DisplayFor(model => model.WeatherType)
-            </dd>
-
-            <dt>
-                @Html.DisplayNameFor(model => model.WaterCondition)
-            </dt>
-
-            <dd>
-                @Html.DisplayFor(model => model.WaterCondition)
-            </dd>
-
-            <dt>
-                @Html.DisplayNameFor(model => model.StoneAvailability)
-            </dt>
-
-            <dd>
-                @Html.DisplayFor(model => model.StoneAvailability)
-            </dd>
-
-            <dt>
-                @Html.DisplayNameFor(model => model.AverageSkip)
-            </dt>
-
-            <dd>
-                @Html.DisplayFor(model => model.AverageSkip)
-            </dd>
-
-            <dt>
-                @Html.DisplayNameFor(model => model.Comment)
-            </dt>
-
-            <dd>
-                @Html.DisplayFor(model => model.Comment)
-            </dd>
-
-            <dt>
-                @Html.DisplayNameFor(model => model.OverallReview)
-            </dt>
-
-            <dd>
-                @Html.DisplayFor(model => model.OverallReview)
-            </dd>
-
-        </dl>
-    </div>*@
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }, new { @class = "btn btn-default", role = "button" })
+    @Html.ActionLink("Back to List", "Index", new { id = Model.ID }, new { @class = "btn btn-default", role = "button" })</p>
+
 </p>
