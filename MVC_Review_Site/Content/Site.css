@@ -5,15 +5,13 @@
     background-color: #CBDACE;
 }
 
-.navbar-default {
+.navbar {
     background-color: #CBDACE;
     height: 50px;
-    color: white;
 }
 
 .thumbnail {
     text-align: center;
-
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -22,12 +20,48 @@
     padding-right: 15px;
 }
 
+.thumbnail {
+    background-image: url('Images/stone-skipping-on-calm-water.png');
+}
+
+
+.thumbnail1 {
+    background-image: url('Images/skipping-stone-ftr.jpg');
+    background-size: 100% 100%;
+    margin: 15px 0px 15px 0px;
+    height: 220px;
+    background-repeat: no-repeat;
+}
+
+.thumbnail2 {
+    background-image: url('Images/images.jpg');
+    background-size: 100% 100%;
+    margin: 15px 0px 15px 0px;
+    height: 220px;
+    background-repeat: no-repeat;
+}
+
+.thumbnail3 {
+    background-image: url('Images/444px-Skipping_stones.svg.png');
+    background-size: cover;
+    margin: 15px 0px 15px 0px;
+    height: 220px;
+}
+
+.bannerDivide {
+    height: 100px;
+}
+
+
 .jumbotron-fluid {
     background-image: url('Images/stone-skipping-on-calm-water.png');
     background-size: cover;
     text-align: center;
+    padding-top: 70px;
     height: 500px;
+    margin-top: 20px;
 }
+
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 

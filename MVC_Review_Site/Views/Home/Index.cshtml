@@ -4,29 +4,31 @@
 
 <div class="jumbotron-fluid">
     <h1>The Stone Skipper</h1>
-    <h3>An area guide to the best skipping around!</h3>
-    <p class="lead">Lorem ipsum dolor sit amet, usu percipit antiopam ut, sed munere denique definiebas id, elitr oporteat te mei. Ut eam nominavi salutandi, sed at ferri molestiae. Eruditi persecuti no sed, nulla discere indoctum in nam, posse copiosae legendos has ex.</p>
-    <p><a href="http://asp.net" class="btn btn-default btn-lg">See Reviews! &raquo;</a></p>
+    <h4>An area guide to the best places to skip around!</h4>
+    <p>@Html.ActionLink("Reviews", "Index", "Reviews", new { id = ViewBag.ID }, new { @class = "btn btn-default", role = "button" })</p>
 </div>
 
+
 <div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    <div class="col-md-3">
+        <h2>The Ideal Stone</h2>
+        <div class="thumbnail1">
+        </div>
+        <p>Mauris rhoncus eu magna non hendrerit. Fusce sit amet neque dolor. Vivamus vel turpis ligula. Nam dignissim dolor sed rutrum dapibus. Nullam vitae efficitur ligula, sit amet faucibus leo.</p>
+        <hr /><p>@Html.ActionLink("Fake Link", "Index", "Reviews", new { id = ViewBag.ID }, new { @class = "btn btn-default", role = "button" })</p>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <div class="col-md-3">
+        <h2>The Ideal Throw</h2>
+        <div class="thumbnail2">
+        </div>
+        <p>Mauris rhoncus eu magna non hendrerit. Fusce sit amet neque dolor. Vivamus vel turpis ligula. Nam dignissim dolor sed rutrum dapibus. Nullam vitae efficitur ligula, sit amet faucibus leo.</p>
+        <hr /><p>@Html.ActionLink("Fake Link", "Index", "Reviews", new { id = ViewBag.ID }, new { @class = "btn btn-default", role = "button" })</p>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    <div class="col-md-6">
+        <h2>Put It All Together</h2>
+        <div class="thumbnail3">
+        </div>
+        <p>Mauris rhoncus eu magna non hendrerit. Fusce sit amet neque dolor. Vivamus vel turpis ligula. Nam dignissim dolor sed rutrum dapibus. Nullam vitae efficitur ligula, sit amet faucibus leo. Duis augue ligula, pharetra nec ex vitae, venenatis pulvinar libero. Vestibulum ornare ut magna sed ultrices.</p>
+        <hr /><p>@Html.ActionLink("Fake Link", "Index", "Reviews", new { id = ViewBag.ID }, new { @class = "btn btn-default", role = "button" })</p>
     </div>
 </div>
