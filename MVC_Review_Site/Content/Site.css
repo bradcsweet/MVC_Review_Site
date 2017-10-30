@@ -5,6 +5,7 @@
     background-color: #CBDACE;
 }
 
+/*SHARED LAYOUT STYLING*/
 .navbar {
     background-color: #CBDACE;
     height: 50px;
@@ -25,6 +26,7 @@
 }
 
 
+/*HOME INDEX STYLING*/
 .thumbnail1 {
     background-image: url('Images/skipping-stone-ftr.jpg');
     background-size: 100% 100%;
@@ -48,11 +50,6 @@
     height: 220px;
 }
 
-.bannerDivide {
-    height: 100px;
-}
-
-
 .jumbotron-fluid {
     background-image: url('Images/stone-skipping-on-calm-water.png');
     background-size: cover;
@@ -62,6 +59,8 @@
     margin-top: 20px;
 }
 
+
+/*REVIEW DETAILS*/
 .container-fluid {
     background-color: #EDEEE4;
     padding: 40px;
